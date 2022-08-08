@@ -7,18 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0212EC8C28999A7000D5E7D8 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212EC8B28999A7000D5E7D8 /* WeatherManager.swift */; };
+		0212EC8F28999E1A00D5E7D8 /* URLSession+APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212EC8E28999E1A00D5E7D8 /* URLSession+APIRequest.swift */; };
+		02D0B18A28A15B9800F39185 /* WeatherAppViewModel+APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0B18928A15B9800F39185 /* WeatherAppViewModel+APIRequest.swift */; };
+		02D0B18D28A161B000F39185 /* WeatherAPI+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0B18C28A161B000F39185 /* WeatherAPI+Combine.swift */; };
+		02D0B19028A161ED00F39185 /* NetworkManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0B18F28A161ED00F39185 /* NetworkManagerProtocols.swift */; };
+		02D0B19228A1628700F39185 /* enumNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D0B19128A1628700F39185 /* enumNetworking.swift */; };
 		02F64E1C289808C200EAE525 /* WheaterAppUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E1B289808C200EAE525 /* WheaterAppUIApp.swift */; };
-		02F64E1E289808C200EAE525 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E1D289808C200EAE525 /* ContentView.swift */; };
+		02F64E1E289808C200EAE525 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E1D289808C200EAE525 /* WeatherView.swift */; };
 		02F64E20289808C400EAE525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F64E1F289808C400EAE525 /* Assets.xcassets */; };
 		02F64E23289808C400EAE525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F64E22289808C400EAE525 /* Preview Assets.xcassets */; };
+		02F64E2E28982A9000EAE525 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E2D28982A9000EAE525 /* MainTabView.swift */; };
+		02F64E3028982ABD00EAE525 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E2F28982ABD00EAE525 /* MapView.swift */; };
+		02F64E322898319000EAE525 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E312898319000EAE525 /* Weather.swift */; };
+		02F64E352898417500EAE525 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E342898417500EAE525 /* LocationManager.swift */; };
+		02F64E392898429E00EAE525 /* WeatherAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E382898429E00EAE525 /* WeatherAppViewModel.swift */; };
+		02F64E42289850B900EAE525 /* NewLocationReadyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F64E41289850B900EAE525 /* NewLocationReadyDelegate.swift */; };
+		2D84FF8509CAC2E9390D4E37 /* Pods_WheaterAppUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AF0E687DB456E2BCF26469 /* Pods_WheaterAppUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0212EC8B28999A7000D5E7D8 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		0212EC8E28999E1A00D5E7D8 /* URLSession+APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+APIRequest.swift"; sourceTree = "<group>"; };
+		02D0B18928A15B9800F39185 /* WeatherAppViewModel+APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherAppViewModel+APIRequest.swift"; sourceTree = "<group>"; };
+		02D0B18C28A161B000F39185 /* WeatherAPI+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherAPI+Combine.swift"; sourceTree = "<group>"; };
+		02D0B18F28A161ED00F39185 /* NetworkManagerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocols.swift; sourceTree = "<group>"; };
+		02D0B19128A1628700F39185 /* enumNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumNetworking.swift; sourceTree = "<group>"; };
 		02F64E18289808C200EAE525 /* WheaterAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheaterAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F64E1B289808C200EAE525 /* WheaterAppUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheaterAppUIApp.swift; sourceTree = "<group>"; };
-		02F64E1D289808C200EAE525 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02F64E1D289808C200EAE525 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		02F64E1F289808C400EAE525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02F64E22289808C400EAE525 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02F64E2D28982A9000EAE525 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		02F64E2F28982ABD00EAE525 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		02F64E312898319000EAE525 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		02F64E342898417500EAE525 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		02F64E36289841F600EAE525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		02F64E382898429E00EAE525 /* WeatherAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppViewModel.swift; sourceTree = "<group>"; };
+		02F64E41289850B900EAE525 /* NewLocationReadyDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLocationReadyDelegate.swift; sourceTree = "<group>"; };
+		A0AF0E687DB456E2BCF26469 /* Pods_WheaterAppUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheaterAppUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39A24826B1EB587FF46217F /* Pods-WheaterAppUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheaterAppUI.debug.xcconfig"; path = "Target Support Files/Pods-WheaterAppUI/Pods-WheaterAppUI.debug.xcconfig"; sourceTree = "<group>"; };
+		B75E77B2BE2A7E4A87F16E47 /* Pods-WheaterAppUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheaterAppUI.release.xcconfig"; path = "Target Support Files/Pods-WheaterAppUI/Pods-WheaterAppUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +55,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D84FF8509CAC2E9390D4E37 /* Pods_WheaterAppUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0212EC8D28999E0100D5E7D8 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0212EC8E28999E1A00D5E7D8 /* URLSession+APIRequest.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		02D0B18B28A1617F00F39185 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				02D0B18C28A161B000F39185 /* WeatherAPI+Combine.swift */,
+				02D0B19128A1628700F39185 /* enumNetworking.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		02D0B18E28A161D700F39185 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				02D0B18F28A161ED00F39185 /* NetworkManagerProtocols.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
 		02F64E0F289808C200EAE525 = {
 			isa = PBXGroup;
 			children = (
 				02F64E1A289808C200EAE525 /* WheaterAppUI */,
 				02F64E19289808C200EAE525 /* Products */,
+				9021404EF444C68785265FAE /* Pods */,
+				9A780C9BC5C82FFB9D013BC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +108,10 @@
 		02F64E1A289808C200EAE525 /* WheaterAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				02F64E36289841F600EAE525 /* Info.plist */,
+				02F64E2B28982A7000EAE525 /* frontend */,
+				02F64E292898153700EAE525 /* backend */,
 				02F64E1B289808C200EAE525 /* WheaterAppUIApp.swift */,
-				02F64E1D289808C200EAE525 /* ContentView.swift */,
 				02F64E1F289808C400EAE525 /* Assets.xcassets */,
 				02F64E21289808C400EAE525 /* Preview Content */,
 			);
@@ -67,6 +126,90 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		02F64E292898153700EAE525 /* backend */ = {
+			isa = PBXGroup;
+			children = (
+				02D0B18E28A161D700F39185 /* protocol */,
+				02D0B18B28A1617F00F39185 /* networking */,
+				0212EC8D28999E0100D5E7D8 /* extensions */,
+				02F64E3F289850A400EAE525 /* delegates */,
+				02F64E372898426B00EAE525 /* ViewModels */,
+				02F64E33289831FB00EAE525 /* managers */,
+				02F64E2A2898154000EAE525 /* models */,
+			);
+			path = backend;
+			sourceTree = "<group>";
+		};
+		02F64E2A2898154000EAE525 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				02F64E312898319000EAE525 /* Weather.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		02F64E2B28982A7000EAE525 /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+				02F64E3A2898439700EAE525 /* Views */,
+				02F64E2D28982A9000EAE525 /* MainTabView.swift */,
+			);
+			path = frontend;
+			sourceTree = "<group>";
+		};
+		02F64E33289831FB00EAE525 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				02F64E342898417500EAE525 /* LocationManager.swift */,
+				0212EC8B28999A7000D5E7D8 /* WeatherManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		02F64E372898426B00EAE525 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				02F64E382898429E00EAE525 /* WeatherAppViewModel.swift */,
+				02D0B18928A15B9800F39185 /* WeatherAppViewModel+APIRequest.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		02F64E3A2898439700EAE525 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02F64E1D289808C200EAE525 /* WeatherView.swift */,
+				02F64E2F28982ABD00EAE525 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02F64E3F289850A400EAE525 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				02F64E41289850B900EAE525 /* NewLocationReadyDelegate.swift */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		9021404EF444C68785265FAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A39A24826B1EB587FF46217F /* Pods-WheaterAppUI.debug.xcconfig */,
+				B75E77B2BE2A7E4A87F16E47 /* Pods-WheaterAppUI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A780C9BC5C82FFB9D013BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0AF0E687DB456E2BCF26469 /* Pods_WheaterAppUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02F64E26289808C400EAE525 /* Build configuration list for PBXNativeTarget "WheaterAppUI" */;
 			buildPhases = (
+				99F25153BC6D52E8EE1EEA31 /* [CP] Check Pods Manifest.lock */,
 				02F64E14289808C200EAE525 /* Sources */,
 				02F64E15289808C200EAE525 /* Frameworks */,
 				02F64E16289808C200EAE525 /* Resources */,
+				1F6F0EDFDFD5E6C5B28E5D65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +277,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F6F0EDFDFD5E6C5B28E5D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheaterAppUI/Pods-WheaterAppUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheaterAppUI/Pods-WheaterAppUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WheaterAppUI/Pods-WheaterAppUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99F25153BC6D52E8EE1EEA31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheaterAppUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02F64E14289808C200EAE525 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02F64E1E289808C200EAE525 /* ContentView.swift in Sources */,
+				02F64E1E289808C200EAE525 /* WeatherView.swift in Sources */,
+				02F64E3028982ABD00EAE525 /* MapView.swift in Sources */,
+				02D0B18A28A15B9800F39185 /* WeatherAppViewModel+APIRequest.swift in Sources */,
+				02D0B19028A161ED00F39185 /* NetworkManagerProtocols.swift in Sources */,
+				02D0B19228A1628700F39185 /* enumNetworking.swift in Sources */,
+				02F64E352898417500EAE525 /* LocationManager.swift in Sources */,
 				02F64E1C289808C200EAE525 /* WheaterAppUIApp.swift in Sources */,
+				02D0B18D28A161B000F39185 /* WeatherAPI+Combine.swift in Sources */,
+				02F64E42289850B900EAE525 /* NewLocationReadyDelegate.swift in Sources */,
+				0212EC8F28999E1A00D5E7D8 /* URLSession+APIRequest.swift in Sources */,
+				02F64E392898429E00EAE525 /* WeatherAppViewModel.swift in Sources */,
+				0212EC8C28999A7000D5E7D8 /* WeatherManager.swift in Sources */,
+				02F64E2E28982A9000EAE525 /* MainTabView.swift in Sources */,
+				02F64E322898319000EAE525 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +460,7 @@
 		};
 		02F64E27289808C400EAE525 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39A24826B1EB587FF46217F /* Pods-WheaterAppUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +470,7 @@
 				DEVELOPMENT_TEAM = 696V2968Y3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WheaterAppUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +491,7 @@
 		};
 		02F64E28289808C400EAE525 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75E77B2BE2A7E4A87F16E47 /* Pods-WheaterAppUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +501,7 @@
 				DEVELOPMENT_TEAM = 696V2968Y3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WheaterAppUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
